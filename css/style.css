@@ -138,11 +138,12 @@ a.read-more:hover {
   color: #222; }
 
 .body-color {
-  background: #323232;
-  color: #fff; }
+  /*background: #323232;*/
+  color: #000; }
 
 section,
 .section-padding {
+  background-color: #323232;
   padding: 100px 0;
   position: relative; }
 
@@ -434,7 +435,8 @@ img.pull-right {
       header area
 ===========================*/
 .header .navbar {
-  padding: 10px 0; }
+  padding: 10px 0;
+ }
 
 .header .navbar-brand {
   padding: 0; }
@@ -447,7 +449,7 @@ img.pull-right {
   padding: 0 20px;
   display: block; }
   .header ul.navbar-nav > li > a:hover {
-    color: #000; }
+    color: #323232; }
 
 .header ul.navbar-nav > li.header-ticket {
   margin-top: 15px; }
@@ -455,7 +457,8 @@ img.pull-right {
     height: 40px;
     line-height: 40px;
     padding: 0px 25px;
-    background: #FFD700;
+    background: #000;
+    color:#fff;
     margin-left: 30px; }
     .header ul.navbar-nav > li.header-ticket .ticket-btn:hover {
       background: #000; }
@@ -494,7 +497,7 @@ img.pull-right {
     position: relative;
     top: 5px; }
     .header.header-transparent ul.navbar-nav > li > a {
-      color: #fff;
+      color: #000;
       line-height: 72px; }
   .header.header-transparent.nav-border {
     border-bottom: 1px solid #363d8a;
@@ -526,7 +529,7 @@ img.pull-right {
     line-height: 40px;
     padding: 0 25px; }
     .header.h-transparent2 .ticket-btn.btn:hover {
-      background: #ff007a;
+      background: #FFD700;
       color: #fff; }
   .header.h-transparent2.sticky {
     background: rgba(255, 255, 255, 0.95);
@@ -551,7 +554,7 @@ img.pull-right {
     .header.header-classic ul.navbar-nav > li.header-ticket .ticket-btn:hover {
       -webkit-box-shadow: none;
       box-shadow: none;
-      background: #d20055; }
+      background: #FFD700; }
 
 .header.sticky {
   position: fixed;
@@ -561,6 +564,12 @@ img.pull-right {
   z-index: 99;
   background: rgba(26, 24, 49, 0.95);
   padding: 5px 0; }
+  .header.sticky ul.navbar-nav > li.header-ticket .ticket-btn {
+    background: #fff;
+    color: #000; }
+  .header.sticky ul.navbar-nav > li > a {
+    color:#fff;
+  }
   .header.sticky .navbar {
     padding: 0; }
   .header.sticky.fade_down_effect {
@@ -1465,7 +1474,7 @@ img.pull-right {
     color: #fff;
     padding: 60px 28px;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 50;
     -webkit-box-flex: 0;
     -ms-flex: 0 0 18%;
     flex: 0 0 18%;
@@ -2304,13 +2313,14 @@ img.pull-right {
       -ms-border-radius: 50%;
       border: 1px solid #525164;
       text-align: center;
-      color: #fff;
+      color: #000;
       font-size: 14px;
       padding: 7px 0;
       margin: 0 5px; }
       .ts-footer-social ul li a:hover {
         background: #000;
         border-color: #000;
+        color:#ffff;
         -webkit-transform: rotate(360deg);
         -ms-transform: rotate(360deg);
         transform: rotate(360deg); }
